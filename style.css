@@ -6,7 +6,7 @@ html {
 }
 
 body { 
-    max-width: 900px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 120px 0 0;
 
@@ -74,5 +74,7 @@ h1 {
     border-bottom: 1px solid #333;
     
 }
+
+.massa tr {border: 0;}
 
 .massa tr:nth-child(even) {background-color: #ccc;}
