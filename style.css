@@ -47,6 +47,7 @@ h1 {
     background: #dadada;
     width: 75%;
     max-width: 750px;
+    padding: 20px;
 }
 
 .massa img {
@@ -55,10 +56,10 @@ h1 {
     float: left;
 }
 
-.massa th, td {
+th, td {
     padding: 20px;
     text-align: left;
     border-bottom: 1px dotted #333;
 }
 
-.massa tr:nth-child(even) {background-color: #ccc;}
+tr:nth-child(even) {background-color: #ccc;}
