@@ -45,6 +45,6 @@ h1 {
 }
 
 .massa img {
-    width: 60%;
-    height: 60%;
+    width: 300px;
+    height: auto;
 }
