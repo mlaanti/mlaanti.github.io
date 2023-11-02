@@ -40,6 +40,14 @@ h1 {
     float: left;
     padding-right: 20px;
     width: 15%;
+    text-align: right;
+}
+
+.linkit a {
+    color: #dadada;
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace;
+
 }
 
 .massa {
