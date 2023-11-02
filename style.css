@@ -6,61 +6,101 @@ html {
 }
 
 body { 
-    max-width: 1100px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 120px 0 0;
 
 }
 
+a { text-decoration: none;}
+
+
 h1 {
-    font-size: 26pt;
+    font-size: 36pt;
+    line-height: 20pt;
     font-weight: bold;
-    font-family:'Courier New', Courier, monospace;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-right: 75px;
+    text-align: right;
+    text-transform: lowercase;
+    font-style: italic;
+    letter-spacing: 1px;
 
 }
 
 .nav {
     width: 100%;
-    margin: 0 auto;
-    font-size: 20px;
-    line-height: 22px;    
-
+    margin: 0 200px 5px;
+    font-size: 12pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .nav a {
-    padding: 20px;
-    background: #dadada;
+    padding: 10px 20px 5px 20px;
+    background: #9a9a9a;
     color: #333;
     font-size: 20px;
     border: 1px solid #eee;
-    margin: 20px 40px 0;
+    border-bottom: 0;
+    margin: 0 10px 0px 0;
+    border-radius: 13px 13px 0 0;
+    font-style: italic;
+    font-weight: bold;
 
+}
+.nav a:hover, .nav a:active, a.current {
+    background: #dadada;
 }
 
 .linkit {
     float: left;
     padding-right: 20px;
-    width: 15%;
-    text-align: right;
+    width: 20%;
+    max-width: 140px;
+    text-align: left;
+    text-transform: lowercase;
+    font-size: 20pt;
+    line-height: 19pt;
+    color: #dadada;
+}
+
+.linkit ul {
+    list-style-type: circle;
+
+}
+
+li:hover {
+    list-style-type: disc;
 }
 
 .linkit a {
     color: #dadada;
-    font-size: 40px;
-    font-family:'Courier New', Courier, monospace;
-
+    font-size: 20pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
 }
+.linkit a:hover {
+    opacity: 0.5;
+}
+
+
 
 .massa {
     float: left;
     background: #dadada;
     width: 75%;
-    max-width: 750px;
+    max-width: 700px;
     padding: 20px;
+    font-size: 12pt;
+    line-height: 14pt;
+    text-align: justify;
+    border-radius: 13px;
 }
 
 .massa img {
-    max-width: 150px;
+    max-width: 200px;
     padding: 10px;
+    padding-left: 0;
     float: left;
 }
 
