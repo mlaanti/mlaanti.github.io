@@ -64,17 +64,20 @@ h1 {
     float: left;
 }
 
-.massa table { border: 1px solid #333;
+.massa table { 
+    border-collapse: collapse;
+    border: 1px solid #333;
+    font-size: 11pt;
+    width: 400px;
+    margin: auto;
 }
 
 .massa th, .massa td {
-    padding: 20px;
+    padding: 10px;
     text-align: left;
     border: 0;
     border-bottom: 1px solid #333;
     
 }
-
-.massa tr {border: 0;}
 
 .massa tr:nth-child(even) {background-color: #ccc;}
