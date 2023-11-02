@@ -2,6 +2,7 @@ html {
     background: rgb(53, 64, 88);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:#333;
+    font-size: 12pt;
 }
 
 body { 
@@ -11,15 +12,17 @@ body {
 }
 
 h1 {
+    font-size: 16pt;
+    font-weight: bold;
 
 }
 
-div .nav {
+.nav {
     width: 100%;
     margin: 0 auto;    
 
 }
-div .nav a {
+.nav a {
     padding: 10px;
     background: #dadada;
     color: #333;
@@ -28,9 +31,9 @@ div .nav a {
 
 }
 
-div .linkit {}
+.linkit {}
 
-div .massa {
+.massa {
     background: #dadada;
     max-width: 750px;
 }
