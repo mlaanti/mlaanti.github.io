@@ -42,3 +42,7 @@ h1 {
     max-width: 750px;
 }
 
+.massakuva img {
+    width: 60%;
+    height: 60%;
+}
