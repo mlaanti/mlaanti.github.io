@@ -95,6 +95,8 @@ li:hover {
     line-height: 14pt;
     text-align: justify;
     border-radius: 13px;
+    padding-bottom: 100px;
+    margin-bottom: 120px;
 }
 
 .massa img {
@@ -108,7 +110,7 @@ li:hover {
     border-collapse: collapse;
     border: 1px solid #333;
     font-size: 11pt;
-    width: 400px;
+    width: 500px;
     margin: auto;
 }
 
