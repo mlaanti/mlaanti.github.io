@@ -2,6 +2,11 @@ html {
     background: #fafafa;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:#333;
+}
+
+body { 
+    max-width: 800px;
+    margin: 0 auto;
 
 }
 
