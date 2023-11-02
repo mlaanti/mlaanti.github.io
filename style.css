@@ -44,3 +44,9 @@ h1 {
     max-width: 750px;
 }
 
+img.massa {
+    max-width: 150px;
+    padding: 10px;
+    float: left;
+}
+
