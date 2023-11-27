@@ -123,3 +123,19 @@ li:hover {
 }
 
 .massa tr:nth-child(even) {background-color: #ccc;}
+
+.massa a {    
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    letter-spacing: -1px;
+    color: rgb(53, 64, 88);
+    font-size: 16pt;
+    line-height: 14pt;
+    text-transform: lowercase;
+}
+ 
+.massa a:hover {
+    color: #666;
+
+}
